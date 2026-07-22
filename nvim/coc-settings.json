@@ -1,0 +1,39 @@
+{
+  "coc.preferences.formatOnSave": [
+    "css",
+    "markdown",
+    "html",
+    "lua",
+    "go",
+    "rust",
+    "json",
+    "vue",
+    "angular",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "colors.enable": true,
+  "languageserver": {
+    "go": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "trace.server": "verbose",
+      "filetypes": ["go"]
+    },
+
+    "explorer.width": 30,
+"explorer.icon.enableNerdfont": true,
+"explorer.previewAction.onHover": false,
+"explorer.keyMappings.global": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit",
+    "h": "open:split"
+},
+"explorer.git.enable": true
+  },
+  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/15.0.6/clangd_15.0.6/bin/clangd",
+  "snippets.ultisnips.pythonPrompt": false,
+  "markdown-preview-enhanced.previewTheme": "github-light.css"
+}
