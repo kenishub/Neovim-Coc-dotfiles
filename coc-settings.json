@@ -1,0 +1,49 @@
+{
+    "coc.preferences.formatOnSave": [
+        "css",
+        "markdown",
+        "html",
+        "lua",
+        "go",
+        "rust",
+        "json",
+        "vue",
+        "angular",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "colors.enable": true,
+    "explorer.width": 25,
+    "explorer.openAction.strategy": "sourceWindow",
+    "explorer.autoReveal": false,
+    "explorer.keepWindow": false,
+    "explorer.icon.enableNerdfont": true,
+    "explorer.previewAction.onHover": false,
+    "explorer.git.enable": true,
+    "explorer.keyMappings.global": {
+        "<cr>": [
+            "expandable?",
+            "expand",
+            "open"
+        ],
+        "v": "open:vsplit",
+        "h": "open:split"
+    },
+    "languageserver": {
+        "go": {
+            "command": "gopls",
+            "rootPatterns": [
+                "go.mod"
+            ],
+            "trace.server": "verbose",
+            "filetypes": [
+                "go"
+            ]
+        }
+    },
+    "clangd.path": "clangd",
+    "snippets.ultisnips.pythonPrompt": false,
+    "markdown-preview-enhanced.previewTheme": "github-light.css"
+}
